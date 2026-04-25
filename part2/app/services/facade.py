@@ -202,4 +202,4 @@ class HBnBFacade:
         if not review:
             raise ValueError("Review not found")
         self.review_repo.delete(review_id)
-        return reviewfrom app.persistence.repository import InMemoryRepository
+        return review
